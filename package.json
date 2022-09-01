@@ -31,7 +31,6 @@
     "version-packages": "changeset version",
     "release": "turbo run build --filter=@web3-ui/components^... && changeset publish"
   },
-  "dependencies": {},
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.2",
     "@changesets/cli": "^2.18.1",
@@ -57,5 +56,16 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "yarn@1.22.18"
+  "packageManager": "yarn@1.22.18",
+  "description": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section --> [![All Contributors](https://img.shields.io/badge/all_contributors-39-orange.svg?style=flat-square)](#contributors-) <!-- ALL-CONTRIBUTORS-BADGE:END -->",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlueGlaucus33/web3-ui.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BlueGlaucus33/web3-ui/issues"
+  },
+  "homepage": "https://github.com/BlueGlaucus33/web3-ui#readme"
 }

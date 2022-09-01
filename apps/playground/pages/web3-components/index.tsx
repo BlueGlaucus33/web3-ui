@@ -9,6 +9,7 @@ import {
   Address,
   TokenBalance,
   NFT,
+  ContractMint,
   ENSAvatar,
   Box,
 } from '@web3-ui/components/src';
@@ -44,6 +45,18 @@ const Web3ComponentsPage: NextPage = () => {
             value="0x0000000000000000000000000000000000000000"
             copiable
           />
+        </div>
+
+        <div className={'item'}>
+          <Text
+            size={`lg`}
+            as={`p`}
+            weight={'semibold'}
+            css={{ padding: '$4' }}
+          >
+            Mint NFT
+          </Text>
+          <ContractMint address="123" chainId="123" />
         </div>
 
         <div className={`item`}>

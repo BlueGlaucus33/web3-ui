@@ -9,3 +9,4 @@ export * from './NFT';
 export * from './TokenBalance';
 // export * from './MultiAddressInput';
 export * from './ENSAvatar';
+export * from './ContractMint';
